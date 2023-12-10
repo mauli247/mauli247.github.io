@@ -1,0 +1,90 @@
+
+# website settings
+website:
+  title: "Mauli Patel"                                # Your name
+  description: "Mauli's Professional Website"   # A brief slogan (optional)
+  image: img/my_image.jpg
+  
+  favicon: img/favicon.png
+  
+  # start of the navigation bar at the top of the website
+  navbar:
+    pinned: true
+    
+    # your sub-pages
+    left:
+      - text: "Education"
+        href: education/index.qmd
+      - text: "Awards"
+        href: awards/index.qmd
+      - text: "CV"
+        href: cv/index.qmd
+    
+    # your social media handles
+    right:
+      - icon: linkedin
+        href: https://ca.linkedin.com/in/maulipatel247
+      - icon: instagram
+        href: https://www.instagram.com/mauli247/ 
+      - icon: github
+        href: https://github.com/mauli247 
+      - icon: envelope
+        aria-label: email
+        href: "mailto:mauli.p@outlook.com"  
+  
+  
+
+# Don't touch unless you know what you are doing :) ------------
+  search: 
+    location: navbar
+    type: textbox
+ 
+
+  
+    
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
+
+format:
+  html:
+    fontsize: 1.1em
+    theme: 
+      - lux
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    
+styles:
+  - |
+    #about-block img {
+      max-width: 100%;  /* Adjust the width as needed */
+    }
+
+  - |
+    #background-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+    }
+
+  - |
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.1); /* Light black color */
+      /* Add any other styling for the navbar */
+    }

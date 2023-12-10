@@ -1,0 +1,27 @@
+---
+title: Mauli Patel
+about:
+  template: trestles
+  id: about-block
+  image: "img/my_image.jpg"
+  links:
+      - icon: linkedin
+        href: https://ca.linkedin.com/in/maulipatel247 
+      - icon: instagram
+        href: https://www.instagram.com/mauli247/ 
+      - icon: github
+        href: https://github.com/mauli247 
+      - icon: envelope
+        aria-label: email
+        href: "mailto:mauli.p@outlook.com"   
+---
+
+# Welcome to my website!
+
+<div style="font-size: 15px;">
+
+Hi everyone, my name is Mauli. I am a dynamic and accomplished professional with a strong background in Science, I am passionate about making a positive impact in the field of healthcare. With 5+ years of experience in healthcare and military services, I have a proven track record of achieving academic and professional excellence. Throughout my career, I have acuminated my leadership skills and ability to work effectively both independently and as part of a team. My areas of expertise include undergraduate research, patient care, military operations and I am committed to a health-care oriented path which focuses on improving the quality of human life. 
+
+I am always seeking new opportunities to further develop my skills and make a valuable contribution to a dynamic organization. If you are looking for a results-driven professional with a passion for healthcare, please don't hesitate to [contact me](mailto:mail.mauli.p@outlook.com). I would welcome the opportunity to connect and explore potential opportunities! 
+
+</div>
